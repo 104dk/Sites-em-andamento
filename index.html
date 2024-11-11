@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kerigma</title>
+</head>
+<body>
+    <!-- Cabeçalho com logo e navegação -->
+    <header>
+        <img src="./img/logo-kerigma-head.png" alt="logo kerigma" />
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Livros</li>
+                <li>Cursos</li>
+                <li>Saiba Mais</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <section class="container">
+        <div class="list">
+            <!-- Item de livro 1 -->
+            <div class="item active">
+                <div class="book-img">
+                    <img src="./img/capa-ebook.jpg" alt="Imagem livro" />
+                </div>
+                <div class="content">
+                    <p class="book-information">E-book</p>
+                    <h2>A voz de DEUS</h2>
+                    <p class="description">
+                        Este é um livro devocional para edificar a sua fé.
+                    </p>
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+            </div>
+            <!-- Item de livro 2 -->
+            <div class="item">
+                <div class="book-img">
+                    <img src="./img/livro-A-voz-de-Deus.png" alt="Imagem livro" />
+                </div>
+                <div class="content">
+                    <p class="book-information">PDF</p>
+                    <h2>Curso Teologico</h2>
+                    <p class="description">
+                        Curso basico em teologia, um pdf com 67 pagina.
+                    </p>
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+            </div>
+            <!-- Item de livro 3 -->
+            <div class="item">
+                <div class="book-img">
+                    <img src="./img/livro-A-voz-de-Deus.png" alt="Imagem livro" />
+                </div>
+                <div class="content">
+                    <p class="book-information">E-book 3</p>
+                    <h2>A voz de DEUS 3</h2>
+                    <p class="description">
+                        Este é um livro devocional para edificar a sua fé.
+                    </p>
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+            </div>
+            <!-- Item de livro 4 -->
+            <div class="item">
+                <div class="book-img">
+                    <img src="./img/livro-A-voz-de-Deus.png" alt="Imagem livro" />
+                </div>
+                <div class="content">
+                    <p class="book-information">E-book 3</p>
+                    <h2>A voz de DEUS 3</h2>
+                    <p class="description">
+                        Este é um livro devocional para edificar a sua fé.
+                    </p>
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botões de Navegação com SVG Inline -->
+        <div class="arrows">
+            <button id="prev">
+                <!-- SVG Inline para seta esquerda -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M15 19l-7-7 7-7" fill="none" stroke="#000" stroke-width="2"/>
+                </svg>
+            </button>
+            <button id="next">
+                <!-- SVG Inline para seta direita -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M9 5l7 7-7 7" fill="none" stroke="#000" stroke-width="2"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Indicadores de navegação -->
+        <div class="indicators">
+            <div class="number">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Script JavaScript -->
+    <script src="./script.js"></script>
+</body>
+</html>
